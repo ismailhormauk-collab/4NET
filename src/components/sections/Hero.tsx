@@ -45,7 +45,7 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="animate-rise [animation-delay:150ms]">
+          <div className="hidden animate-rise [animation-delay:150ms] lg:block">
             <HeroVisual />
           </div>
         </div>
