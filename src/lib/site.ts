@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Streaming Made Simple",
   description:
     "IPTV 4NET offers flexible streaming plans, compatible device support, easy setup and dedicated customer assistance.",
-  url: "https://www.iptv4net.com",
+  url: "https://www.iptv4net.net",
   whatsapp: {
     number: "+34613836698",
     display: "+34 613 836 698",
