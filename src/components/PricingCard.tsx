@@ -17,9 +17,6 @@ export function PricingCard({
   const isHighlighted = Boolean(plan.badge);
   const price = getPriceForDevices(plan, deviceCount);
   const monthly = getMonthlyEquivalent(plan, deviceCount);
-  const deviceLabel = `${deviceCount} device${deviceCount === 1 ? "" : "s"}`;
-
-  const whatsappMessage = `Hi! I'd like to subscribe to the ${plan.duration} plan for ${deviceLabel} (€${price}).`;
 
   return (
     <div
@@ -60,7 +57,7 @@ export function PricingCard({
       </ul>
 
       <Button
-        href={`${siteConfig.whatsapp.link}?text=${encodeURIComponent(whatsappMessage)}`}
+        href={siteConfig.whatsapp.link}
         external
         variant={isHighlighted ? "primary" : "secondary"}
         className="w-full"
