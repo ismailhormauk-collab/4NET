@@ -1,5 +1,6 @@
-import { MessageCircle, Send } from "lucide-react";
+import { Send } from "lucide-react";
 import { siteConfig } from "@/lib/site";
+import { WhatsAppIcon } from "@/components/icons/WhatsAppIcon";
 
 export function FloatingContact() {
   return (
@@ -20,7 +21,7 @@ export function FloatingContact() {
         aria-label="Chat on WhatsApp"
         className="flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_0_22px_6px_rgba(37,211,102,0.45)] transition-transform hover:scale-105"
       >
-        <MessageCircle className="h-6 w-6" aria-hidden="true" />
+        <WhatsAppIcon className="h-6 w-6" />
       </a>
     </div>
   );
