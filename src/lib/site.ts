@@ -6,9 +6,9 @@ export const siteConfig = {
     "IPTV 4NET offers flexible streaming plans, compatible device support, easy setup and dedicated customer assistance.",
   url: "https://www.iptv4net.net",
   whatsapp: {
-    number: "+447456061424",
-    display: "+44 7456 061424",
-    link: "https://wa.me/447456061424",
+    number: "+34613836698",
+    display: "+34 613 836 698",
+    link: "https://wa.me/34613836698",
   },
   telegram: {
     handle: "@pulseiptv4k",
